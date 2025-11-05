@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   box-sizing: border-box;
 }
 
@@ -54,6 +54,12 @@ body {
   cursor: pointer;
 }
 
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+
 .search button img {
   width: 16px;
 }
@@ -86,11 +92,6 @@ body {
   display: flex;
   align-items: center;
   text-align: left;
-}
-
-.col img {
-  width: 40px;
-  margin-right: 10px;
 }
 
 .humidity,
