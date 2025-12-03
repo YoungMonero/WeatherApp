@@ -34,11 +34,35 @@ Users can search for any city to instantly see the current temperature, humidity
 
 ## Project Structure
 
-weather-app/
-│
-├── images/ # Weather icons (rain, clear, clouds, etc.)
-│
-├── styles.css # Styling for the app
-├── script.js # Main JavaScript file
-├── index.html # Main HTML page
-└── README.md # Project documentation
+weather-app
+
+-- images # Weather icons (rain, clear, clouds, etc.)
+── styles.css # Styling for the app
+── script.js # Main JavaScript file
+── index.html # Main HTML page
+── README.md # Project documentation
+
+## Getting Started (Run Locally)
+
+Follow the steps below to clone and run the application on your machine.
+
+```bash
+
+git clone https://github.com/YoungMonero/WeatherApp.git
+cd weather-app
+git chechout body  --which is my working branch
+Since this is a simple HTML/CSS/JS project, you can run it directly.
+Just double-click the file:
+
+weather-app/index.html
+
+## OR 
+
+Open the folder in VSCode
+Install the Live Server extension
+Right-click index.html → "Open with Live Server"
+
+Get a free API key from OpenWeatherMap:
+  https://openweathermap.org/api
+
+
